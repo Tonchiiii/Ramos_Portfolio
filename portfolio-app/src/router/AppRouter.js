@@ -3,6 +3,9 @@ import HomePage from '../components/Homepage';
 import PortfolioShowcase from '../components/PortfolioShowcase';
 import MyWork from '../components/MyWork';
 import ContactPage from '../components/ContactPage';
+import NavBar from '../components/NavBar';
+
+
 
 function AppRouter() {
   return (
@@ -12,6 +15,7 @@ function AppRouter() {
       <Route path="/work" element={<MyWork />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/homepage" element={<HomePage />} />
+      <Route path="/navbar" element={<NavBar />} />
     </Routes>
   );
 }

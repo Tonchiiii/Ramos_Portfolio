@@ -449,3 +449,37 @@ input { height: 50px; }
   .navbar-default .navbar-brand {  padding-top: 2px; }
 }
 /* END MEDIA 360 */
+
+/* TRAILONE SECTION */
+.trailone-description {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 32px;
+  color: #606060;
+}
+
+.trailone-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #eb5424;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.trailone-btn:hover {
+  background-color: #ffffff;
+  color: #eb5424;
+  border: 1px solid #eb5424;
+}
+
+.trailone-btn svg {
+  margin-right: 10px;
+  font-size: 18px;
+}

@@ -1,9 +1,11 @@
 import '../css/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './NavBar'; 
 
 function Homepage() {
     return (
         <div className='body' data-spy="scroll" data-target="#rock-navigation">
+             <NavBar />
             <section id="home" className="templatemo-home">
                 <div className="container">
                     <div className="row">
@@ -33,17 +35,17 @@ function Homepage() {
                         </div>
                         <div className="col-md-6 col-sm-6">
                             <h2 className="title"><strong>Some</strong> Skills</h2>
-                            <h4 className="tm-progress-label">Python <small className="progress-percent-small">80%</small></h4>
-                            <div className="progress tm-progress">
-                                <div className="progress-bar progress-bar-danger" role="progressbar" style={{ width: '80%' }}></div>
-                            </div>
-                            <h4 className="tm-progress-label">HTML5 <small className="progress-percent-small">85%</small></h4>
-                            <div className="progress tm-progress">
-                                <div className="progress-bar progress-bar-danger" role="progressbar" style={{ width: '85%' }}></div>
-                            </div>
-                            <h4 className="tm-progress-label">Django <small className="progress-percent-small">75%</small></h4>
+                            <h4 className="tm-progress-label">Python<small className="progress-percent-small">75%</small></h4>
                             <div className="progress tm-progress">
                                 <div className="progress-bar progress-bar-danger" role="progressbar" style={{ width: '75%' }}></div>
+                            </div>
+                            <h4 className="tm-progress-label">React.js<small className="progress-percent-small">65%</small></h4>
+                            <div className="progress tm-progress">
+                                <div className="progress-bar progress-bar-danger" role="progressbar" style={{ width: '65%' }}></div>
+                            </div>
+                            <h4 className="tm-progress-label">Django<small className="progress-percent-small">80%</small></h4>
+                            <div className="progress tm-progress">
+                                <div className="progress-bar progress-bar-danger" role="progressbar" style={{ width: '80%' }}></div>
                             </div>
                         </div>
                     </div>
