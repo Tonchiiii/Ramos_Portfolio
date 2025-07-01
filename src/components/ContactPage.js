@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../css/style.css';
 const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -43,11 +43,11 @@ const ContactPage = () => {
 
       {/* START SOCIAL */}
       <section id="social" className="tm-social">
-        <div className="container">
-          <div className="row">
+        <div className="container-fluid">
+          <div className="row d-flex justify-content-between">
             <div className="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.3s">
               <div className="media facebook">
-                <a href="https://www.facebook.com/tonchiiiiiiii/">
+                <a href="https://www.facebook.com/tonchiiiiiiii/" target="_blank" rel="noopener noreferrer">
                   <div className="media-object pull-left">
                     <i className="fa fa-facebook"></i>
                   </div>
@@ -61,12 +61,12 @@ const ContactPage = () => {
 
             <div className="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.6s">
               <div className="media linkedin">
-                <a href="https://www.linkedin.com/in/anton-ramos-88b65926a/">
+                <a href="https://www.linkedin.com/in/anton-ramos-88b65926a/" target="_blank" rel="noopener noreferrer">
                   <div className="media-object pull-left">
                     <i className="fa fa-linkedin"></i>
                   </div>
                   <div className="media-body">
-                    <h4 className="media-heading tm-social-title">Tweet me on</h4>
+                    <h4 className="media-heading tm-social-title">Message me on</h4>
                     <h3>LinkedIn</h3>
                   </div>
                 </a>
@@ -75,12 +75,12 @@ const ContactPage = () => {
 
             <div className="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.9s">
               <div className="media instagram">
-                <a href="/">
+                <a href="/ "target="_blank" rel="noopener noreferrer">
                   <div className="media-object pull-left">
                     <i className="fa fa-instagram"></i>
                   </div>
                   <div className="media-body">
-                    <h4 className="media-heading tm-social-title">Dm me on</h4>
+                    <h4 className="media-heading tm-social-title">DM me on</h4>
                     <h3>Instagram</h3>
                   </div>
                 </a>

@@ -5,6 +5,10 @@
   margin-bottom: 20px;
 }
 
+.indented {
+  text-indent: 5em;
+}
+
 /* Style for Project Description */
 .project-description {
   font-size: 1.2em;

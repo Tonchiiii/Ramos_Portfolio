@@ -421,7 +421,7 @@ hr {
 }
 .form-control:focus,
  .form-control:hover {
-  background: #202020;
+  background: #eb5424;
   color: #ffffff;
 }
 input { height: 50px; }

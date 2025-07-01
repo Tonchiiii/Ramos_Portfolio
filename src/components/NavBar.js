@@ -1,37 +1,32 @@
-import { Link } from 'react-router-dom';
-import '../App.css';
+import { useState } from 'react';
+import '../css/navbar.css'; // Include your CSS for colors/fonts, etc.
 
 function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => setIsOpen(!isOpen);
+  const closeNav = () => setIsOpen(false);
+
   return (
-    <div className="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">
-      <div className="container">
-        <div className="navbar-header">
-          <button
-            className="navbar-toggle"
-            data-toggle="collapse"
-            data-target="#rock-navigation"
-            aria-controls="rock-navigation"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon icon-bar"></span>
-            <span className="icon icon-bar"></span>
-            <span className="icon icon-bar"></span>
-          </button>
-        </div>
-        <nav className="collapse navbar-collapse" id="rock-navigation">
-          <ul className="nav navbar-nav navbar-right main-navigation text-uppercase">
-            <li><Link to="/dashboard" className="smoothScroll">Home</Link></li>
-            <li><Link to="/mywork" className="smoothScroll">My Work</Link></li>
-            <li><Link to="/portfolio_showcase" className="smoothScroll">Portfolio</Link></li>
-            <li><Link to="/about" className="smoothScroll">About</Link></li>
-            <li><Link to="/contact" className="smoothScroll">Contact</Link></li>
-            <li><Link to="/" className="smoothScroll">Logout</Link></li>
-          </ul>
+    <header className="custom-navbar">
+      <div className="nav-container">
+        <div className="nav-brand">Anton Ramos</div>
+
+        <button className="nav-toggle" onClick={toggleNav} aria-label="Toggle navigation">
+          <span className="nav-bar"></span>
+          <span className="nav-bar"></span>
+          <span className="nav-bar"></span>
+        </button>
+
+        <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
+          <a href="#home" onClick={closeNav}>Home</a>
+          <a href="#work" onClick={closeNav}>My Work</a>
+          <a href="#portfolio" onClick={closeNav}>Portfolio</a>
+          <a href="#about" onClick={closeNav}>About</a>
+          <a href="#contact" onClick={closeNav}>Contact</a>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }
 
