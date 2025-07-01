@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Ramos_Portfolio/static/css/main.3c2807e4.css",
+    "main.js": "/Ramos_Portfolio/static/js/main.cc0a4d78.js",
+    "static/js/453.c173b4f9.chunk.js": "/Ramos_Portfolio/static/js/453.c173b4f9.chunk.js",
+    "static/media/home-bg.jpg": "/Ramos_Portfolio/static/media/home-bg.14eacc1c4c641a9e0e83.jpg",
+    "static/media/me.jpg": "/Ramos_Portfolio/static/media/me.b7639a1e76f21699ccd5.jpg",
+    "static/media/ClickCare_5.jpg": "/Ramos_Portfolio/static/media/ClickCare_5.0e7b69d90819bab95f5f.jpg",
+    "static/media/ClickCare_4.jpg": "/Ramos_Portfolio/static/media/ClickCare_4.c319f12db63e17309233.jpg",
+    "static/media/LPENHS_8.jpg": "/Ramos_Portfolio/static/media/LPENHS_8.fbf7769b28a3b4c59492.jpg",
+    "static/media/ClickCare_1.jpg": "/Ramos_Portfolio/static/media/ClickCare_1.f6a64da839ada552ab95.jpg",
+    "static/media/LPENHS_4.jpg": "/Ramos_Portfolio/static/media/LPENHS_4.6efd100bdeecf6aafd9a.jpg",
+    "static/media/ClickCare_3.jpg": "/Ramos_Portfolio/static/media/ClickCare_3.71da11bea78810e68494.jpg",
+    "static/media/ClickCare_2.jpg": "/Ramos_Portfolio/static/media/ClickCare_2.e2258279b788e53a004d.jpg",
+    "static/media/LPENHS_6.jpg": "/Ramos_Portfolio/static/media/LPENHS_6.7e14764344c3b7289e2e.jpg",
+    "static/media/LPENHS_5.jpg": "/Ramos_Portfolio/static/media/LPENHS_5.98d2f14c9108fe057efa.jpg",
+    "static/media/ClickCare_6.jpg": "/Ramos_Portfolio/static/media/ClickCare_6.58c24c0b704a10927c00.jpg",
+    "static/media/LPENHS_7.jpg": "/Ramos_Portfolio/static/media/LPENHS_7.126d09ec8718294cc3c5.jpg",
+    "static/media/Django_2.jpg": "/Ramos_Portfolio/static/media/Django_2.dc8e7480fcf30a84e087.jpg",
+    "static/media/LPENHS_2.jpg": "/Ramos_Portfolio/static/media/LPENHS_2.3fc839d2a12632584f5d.jpg",
+    "static/media/Django_3.jpg": "/Ramos_Portfolio/static/media/Django_3.e60b1c037f4591c451b7.jpg",
+    "static/media/LPENHS_3.jpg": "/Ramos_Portfolio/static/media/LPENHS_3.27c90c2d7f42883c8054.jpg",
+    "static/media/Django_1.jpg": "/Ramos_Portfolio/static/media/Django_1.762317110f5a4a8495ee.jpg",
+    "static/media/LPENHS_1.jpg": "/Ramos_Portfolio/static/media/LPENHS_1.9e976f9d82c1993189db.jpg",
+    "static/media/Django_4.jpg": "/Ramos_Portfolio/static/media/Django_4.9970c4e8ca9aa23054b0.jpg",
+    "index.html": "/Ramos_Portfolio/index.html",
+    "main.3c2807e4.css.map": "/Ramos_Portfolio/static/css/main.3c2807e4.css.map",
+    "main.cc0a4d78.js.map": "/Ramos_Portfolio/static/js/main.cc0a4d78.js.map",
+    "453.c173b4f9.chunk.js.map": "/Ramos_Portfolio/static/js/453.c173b4f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c2807e4.css",
+    "static/js/main.cc0a4d78.js"
+  ]
+}
